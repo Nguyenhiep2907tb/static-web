@@ -1,101 +1,72 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-    color: #666;
+BODY {
+	SCROLLBAR-FACE-COLOR: #FFCCFF;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-SHADOW-COLOR: #666666; 
+	SCROLLBAR-3DLIGHT-COLOR: #000000; 
+	SCROLLBAR-ARROW-COLOR: #ffffff; 
+	SCROLLBAR-TRACK-COLOR: #FFCCFF; 
+	SCROLLBAR-DARKSHADOW-COLOR: #FFCCFF
 }
-
-
-/* Header/logo tiêu đề */
-
-header {
-    padding: 5px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
-    height: 120px;
+TD {
+	FONT-SIZE: 9pt; FONT-FAMILY: Arial
 }
-
-
-/* Tăng kích thước font chữ cho header */
-
-header h1 {
-    font-size: 40px;
+A.menuleft {
+	COLOR: #000000; TEXT-DECORATION: none
 }
-
-header h1,
-h2,
-h3 {
-    color: white;
+A.menuleft:visited {
+	COLOR: #000000; TEXT-DECORATION: none
 }
-
-section {
-    padding: 20px;
+A.menuleft:link {
+	COLOR: #000000; TEXT-DECORATION: none
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+A.menuleft:active {
+	COLOR: #000000; TEXT-DECORATION: none
 }
-
-li {
-    float: left;
+A.menuleft:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
 }
-
-li a,
-.dropbtn {
-    display: inline-block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+A.menubar {
+	COLOR: #000000; TEXT-DECORATION: none
 }
-
-li a:hover:not(.active),
-.dropdown:hover .dropbtn {
-    color: white;
-    background-color: #4CAF50;
+A.menubar:visited {
+	COLOR: #000000; TEXT-DECORATION: none
 }
-
-li.dropdown {
-    display: inline-block;
+A.menubar:link {
+	COLOR: #000000; TEXT-DECORATION: none
 }
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+A.menubar:active {
+	COLOR: #000000; TEXT-DECORATION: none
 }
-
-.dropdown-content a {
-    color: #666;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+A.menubar:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
 }
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
+A.newslink {
+	COLOR: #666666; TEXT-DECORATION: none
 }
-
-.dropdown:hover .dropdown-content {
-    display: block;
+A.newslink:visited {
+	COLOR: #666666; TEXT-DECORATION: none
 }
-
-
-/* Landing page */
-
-.hideable-section {
-    display: none;
+A.newslink:link {
+	COLOR: #666666; TEXT-DECORATION: none
 }
-
-.hideable-section:first-of-type {
-    display: block;
+A.newslink:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.newslink:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.subject {
+	FONT-WEIGHT: bold; COLOR: #990000; TEXT-DECORATION: none
+}
+A.subject:visited {
+	FONT-WEIGHT: bold; COLOR: #990000; TEXT-DECORATION: none
+}
+A.subject:link {
+	FONT-WEIGHT: bold; COLOR: #990000; TEXT-DECORATION: none
+}
+A.subject:active {
+	FONT-WEIGHT: bold; COLOR: #990000; TEXT-DECORATION: none
+}
+A.subject:hover {
+	FONT-WEIGHT: bold; COLOR: #ff0000; TEXT-DECORATION: underline
 }
